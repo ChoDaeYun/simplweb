@@ -16,6 +16,27 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+
+# firebase run 
+firebase serve
+
 ```
+
+## Setting 
+```
+#firebase connent 
+#edit content in firebase.js
+
+file name : firebase.js
+
+const config = {
+  apiKey: "<apiKey>",
+  authDomain: "<>authDomain",
+  databaseURL: "<databaseURL>",
+  projectId: "<projectId>",
+  storageBucket: "<storageBucket>",
+  messagingSenderId: "<messagingSenderId>"
+};
+```  
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
